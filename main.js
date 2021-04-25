@@ -4,7 +4,7 @@ $(() => {
   //---------------------------------------- Points
   points = {
     trickster: 21,
-    pyromancer: 21,
+    pyromant: 21,
     verwüster: 21,
     technomant: 21
   }
@@ -13,19 +13,19 @@ $(() => {
   //---------------------------------------- Load URL Params
   url = {
     trickster: [],
-    pyromancer: [],
+    pyromant: [],
     verwüster: [],
     technomant: []
   }
   power = {
     trickster: [],
-    pyromancer: [],
+    pyromant: [],
     verwüster: [],
     technomant: []
   }
 
   let search = new URLSearchParams(location.search)
-  active = url.hasOwnProperty(search.get("c")) ? search.get("c") : "pyromancer"
+  active = url.hasOwnProperty(search.get("c")) ? search.get("c") : "pyromant"
   $("#nav .button[data-class=" + active + "]").addClass("active")
   activetree = $("." + active + ".skilltree").show()
   activestats = $("." + active + ".statstable").show()
@@ -368,7 +368,7 @@ function bindElements() {
   })
   
   //---------------------------------------- Change Tree
-  $("#nav-trickster, #nav-pyromancer, #nav-verwüster, #nav-technomant").on("click", function() {
+  $("#nav-trickster, #nav-pyromant, #nav-verwüster, #nav-technomant").on("click", function() {
     activetree.hide()
     activestats.hide()
     $("#searchcount").text("")
@@ -579,7 +579,7 @@ function loadData() {
       /* 78 */ [ 0, [ 76, 77 ], [], "Altered Executioner", { "For each Enemy in Close Range, your Anomaly Power is increased by 10%": null } ]
     ],
     
-    pyromancer: [
+    pyromant: [
        /* 0  */ [ 1, [], [ 1, 30, 56 ], "", { "Anomaly Power": 0.1, "[HM] Skills mark Enemies for 15s. Killing a Marked Enemy Heals you for 24% of your Maximum Health": null } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Inferno Weapon", { "Weapon Damage": 0.08 } ],
@@ -931,7 +931,7 @@ function loadData() {
       [ 1478, 652, 1 ]
     ],
     
-    pyromancer: [
+    pyromant: [
       [ 108, 375, 2 ],
       
       [ 252, 329, 0 ],
@@ -1218,7 +1218,7 @@ function loadData() {
   
   stats = {
     trickster: {},
-    pyromancer: {},
+    pyromant: {},
     verwüster: {},
     technomant: {}
   }
@@ -1303,7 +1303,7 @@ function loadData() {
         "Borrowed Time": 0
       }
     },
-    pyromancer: {
+    pyromant: {
       Explosive: {
         "Thermal Bomb": 14,
         "Overheat": 22,
@@ -1379,7 +1379,7 @@ function loadData() {
       "Hunt The Prey": "Select an enemy and teleport behind them, receiving a ~19% Shield bonus.",
       "Borrowed Time": "Receive [X] Shield and mark your location for [Y] seconds. Triggering the skill again will bend spacetime and teleport you back to the marked spot.",
     },
-    pyromancer: {
+    pyromant: {
       "Thermal Bomb": "Select an enemy to Burn, Interrupt and deal ~13% damage to. If killed while still afflicted by the skill, the enemy will explode, dealing ~112% damage within a large radius.",
       "Overheat": "Deal ~3.7% damage to all enemies within a large radius and Interrupt their skills. Enemies afflicted with Burn receive ~45% damage instead (the Burn will be consumed).",
       "Eruption": "Create a volcanic eruption beneath the selected enemy, dealing [Z] damage to all enemies within a small radius of the target. The eruption spews lava, dealing damage over time within a small area.",
