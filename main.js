@@ -5,7 +5,7 @@ $(() => {
   points = {
     trickster: 21,
     pyromancer: 21,
-    devastator: 21,
+    verwüster: 21,
     technomant: 21
   }
   $("#points").text(20)
@@ -14,13 +14,13 @@ $(() => {
   url = {
     trickster: [],
     pyromancer: [],
-    devastator: [],
+    verwüster: [],
     technomant: []
   }
   power = {
     trickster: [],
     pyromancer: [],
-    devastator: [],
+    verwüster: [],
     technomant: []
   }
 
@@ -368,7 +368,7 @@ function bindElements() {
   })
   
   //---------------------------------------- Change Tree
-  $("#nav-trickster, #nav-pyromancer, #nav-devastator, #nav-technomant").on("click", function() {
+  $("#nav-trickster, #nav-pyromancer, #nav-verwüster, #nav-technomant").on("click", function() {
     activetree.hide()
     activestats.hide()
     $("#searchcount").text("")
@@ -667,7 +667,7 @@ function loadData() {
        /* 79 */ [ 0, [ 77, 78 ], [], "Grave Ablaze", { "Skill Damage (Explosive)": 0.3 } ]
     ],
     
-    devastator: [
+    verwüster: [
        /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "[HM] Every Close Range kill Heals you for 24% of your Maximum Health": null, "Health": 0.15, "Armor": 0.3 } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Havoc", { "Weapon Damage": 0.08 } ],
@@ -1019,7 +1019,7 @@ function loadData() {
       [ 1478, 652, 1 ]
     ],
     
-    devastator: [
+    verwüster: [
       [ 108, 375, 2 ],
       
       [ 252, 329, 0 ],
@@ -1219,7 +1219,7 @@ function loadData() {
   stats = {
     trickster: {},
     pyromancer: {},
-    devastator: {},
+    verwüster: {},
     technomant: {}
   }
   
@@ -1319,7 +1319,7 @@ function loadData() {
         "Ash Blast": 0
       }
     },
-    devastator: {
+    verwüster: {
       Kinetic: {
         "Gravity Leap": 20,
         "Boulderdash": 0,
@@ -1389,7 +1389,7 @@ function loadData() {
       "Feed the Flames": "Select and pull an enemy towards you dealing ~25% damage, draining ~25% Health, and inflicting Ash.",
       "Ash Blast": "Create an Anomaly blast to inflict Ash onto all enemies within a large radius around you.",
     },
-    devastator: {
+    verwüster: {
       "Gravity Leap": "Leap into the air and strike your targets from above, dealing ~80% damage and Interrupting enemies within a small radius of the area you land in.",
       "Boulderdash": "Charge forward to Interrupt all enemies in your path and deal [Z] damage. At the end of the charge, you will smash the ground and deal [Z] damage to all enemies within a small radius around you.",
       "Endless Mass": "Select a target to encase in stone, inflicting Bleed and pulling enemies within a small radius towards the initial target. The stone will then explode, dealing [Z] damage to all enemies within a small radius around the target.",
