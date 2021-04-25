@@ -6,7 +6,7 @@ $(() => {
     trickster: 21,
     pyromancer: 21,
     devastator: 21,
-    technomancer: 21
+    technomant: 21
   }
   $("#points").text(20)
   
@@ -15,13 +15,13 @@ $(() => {
     trickster: [],
     pyromancer: [],
     devastator: [],
-    technomancer: []
+    technomant: []
   }
   power = {
     trickster: [],
     pyromancer: [],
     devastator: [],
-    technomancer: []
+    technomant: []
   }
 
   let search = new URLSearchParams(location.search)
@@ -368,7 +368,7 @@ function bindElements() {
   })
   
   //---------------------------------------- Change Tree
-  $("#nav-trickster, #nav-pyromancer, #nav-devastator, #nav-technomancer").on("click", function() {
+  $("#nav-trickster, #nav-pyromancer, #nav-devastator, #nav-technomant").on("click", function() {
     activetree.hide()
     activestats.hide()
     $("#searchcount").text("")
@@ -754,7 +754,7 @@ function loadData() {
        /* 78 */ [ 0, [ 76, 77 ], [], "Earth's Heritage", { "Skill Damage (Seismic)": 0.5 } ]
     ],
     
-    technomancer: [
+    technomant: [
        /* 0  */ [ 1, [], [ 1, 29, 55 ], "", { "Weapon Damage (Long Range)": 0.15, "Skill Leech": 0.15, "Weapon Leech": 0.15 } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Br/8 Impact Amplifier", { "Weapon Damage": 0.08 } ],
@@ -1106,7 +1106,7 @@ function loadData() {
       [ 1478, 652, 1 ]
     ],
     
-    technomancer: [
+    technomant: [
       [ 107, 374, 2 ],
       
       [ 252, 329, 0 ],
@@ -1220,7 +1220,7 @@ function loadData() {
     trickster: {},
     pyromancer: {},
     devastator: {},
-    technomancer: {}
+    technomant: {}
   }
   
   $.each(skills, (c, list) => {
@@ -1335,7 +1335,7 @@ function loadData() {
         "Tremor": 0
       }
     },
-    technomancer: {
+    technomant: {
       Decay: {
         "Blighted Rounds": 58,
         "Blighted Turret": 0
@@ -1399,7 +1399,7 @@ function loadData() {
       "Impale": "Select a target to Interrupt their skills, inflict Bleed, and deal [Z] damage.<br><br>If the damage is lethal, the enemy will be impaled, granting a powerful bonus to Armor and Health Regeneration to all allies for 9 seconds.",
       "Tremor": "Create a series of explosions around you, each dealing [Z] damage and draining [X] Health from enemies within a medium radius around you.",
     },
-    technomancer: {
+    technomant: {
       "Blighted Rounds": "Fill your current weapon's magazine with decay-infused bullets that inflict Toxic onto enemies. Enemies within a small radius of the main target also receive Toxic and 50% of damage. The skill lasts until you reload or switch weapons.",
       "Blighted Turret": "Place an automated turret that deals [Z] damage and inflicts Toxic onto enemies. The turret's health depletes slowly over time and when it takes damage.",
       "Cryo Turret": "Place an automated turret that deals ~2% damage and inflicts Freeze onto enemies. The turret's health depletes slowly over time and when it takes damage.",
@@ -1430,7 +1430,7 @@ function loadData() {
       $.each(list, (name, cd) => {
         activetype.append($("<div>").addClass("power").attr("data-i", i++).attr("data-n", name)
           .append($("<div>").text(name))
-          .append($("<img>").attr({ src: "" + name.replace(/ /g, "-").toLowerCase() + ".png", width: "64px", height: "64px", onerror: "this.onerror = null; this.src='placeholder.webp'" }))
+          .append($("<img>").attr({ src: "skills/" + name.replace(/ /g, "-").toLowerCase() + ".png", width: "64px", height: "64px", onerror: "this.onerror = null; this.src='skills/placeholder.webp'" }))
           .append($("<div>").addClass("cooldown").text(cd))
           .append($("<div>").addClass("tooltip").html(color(abilitydesc[c][name], abilitykeywords))))
       })
