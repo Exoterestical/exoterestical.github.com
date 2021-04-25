@@ -1430,7 +1430,7 @@ function loadData() {
       $.each(list, (name, cd) => {
         activetype.append($("<div>").addClass("power").attr("data-i", i++).attr("data-n", name)
           .append($("<div>").text(name))
-          .append($("<img>").attr({ src: "/" + name.replace(/ /g, "-").toLowerCase() + ".png", width: "64px", height: "64px", onerror: "this.onerror = null; this.src='skills/placeholder.webp'" }))
+          .append($("<img>").attr({ src: "" + name.replace(/ /g, "-").toLowerCase() + ".png", width: "64px", height: "64px", onerror: "this.onerror = null; this.src='placeholder.webp'" }))
           .append($("<div>").addClass("cooldown").text(cd))
           .append($("<div>").addClass("tooltip").html(color(abilitydesc[c][name], abilitykeywords))))
       })
