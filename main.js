@@ -575,7 +575,7 @@ function loadData() {
       /* 74 */ [ 0, [ 73 ], [], "Leap of Clincher", { "Activating a Movement Skill increases Resistance Piercing by 25% for 10s": null } ],
       /* 75 */ [ 0, [ 73 ], [ 76, 77 ], "Scion of the Void", { "When your Damage Skill ends, increase Armor Piercing by 30% and Resistance Piercing by 25% for 10s": null } ],
       /* 76 */ [ 0, [ 75 ], [ 78 ], "Shadow's Embrace", { "Increase Firepower by 15% of your Anomaly Power": null } ],
-      /* 77 */ [ 0, [ 75 ], [ 78 ], "Shielded Readiness", { "[HM] You will not be heilted for each enemy that dies in Close Range, instead your Shield Gain will be increased by 20%": null } ],
+      /* 77 */ [ 0, [ 75 ], [ 78 ], "Shielded Readiness", { "[HM] You will not be geheilt for each enemy that dies in Close Range, instead your Shield Gain will be increased by 20%": null } ],
       /* 78 */ [ 0, [ 76, 77 ], [], "Altered Executioner", { "For each Enemy in Close Range, your Anomaly Power is increased by 10%": null } ]
     ],
     
@@ -745,7 +745,7 @@ function loadData() {
        /* 69 */ [ 0, [ 66 ], [ 70 ], "Red Rivers", { "Bleed Duration": 0.3 } ],
        /* 70 */ [ 0, [ 68, 69 ], [ 71, 73 ], "Anomaly Resevoir", { "Anomaly Power": 0.06 } ],
        /* 71 */ [ 0, [ 70 ], [ 72 ], "Bloodbath", { "Bleed Damage": 0.3 } ],
-       /* 72 */ [ 0, [ 71 ], [], "Blood Donation", { "You are heilted for 25% of the Damage caused by Bleed": null } ],
+       /* 72 */ [ 0, [ 71 ], [], "Blood Donation", { "You are geheilt for 25% of the Damage caused by Bleed": null } ],
        /* 73 */ [ 0, [ 70 ], [ 74, 75 ], "Rejuvenation", { "Skill Leech": 0.06 } ],
        /* 74 */ [ 0, [ 73 ], [], "Protected by the Anomaly", { "Increase Armor by 40% of your Anomaly Power": null } ],
        /* 75 */ [ 0, [ 73 ], [ 76, 77 ], "Skilled Sentry", { "When Any Skill ends, increase Armor and Resistance by 20% for 10s": null } ],
