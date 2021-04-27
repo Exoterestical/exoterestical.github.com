@@ -805,7 +805,7 @@ function loadData() {
        /* 44 */ [ 0, [ 42, 43 ], [ 45 ], "Suction Module", { "Weapon Leech": 0.05 } ],
        /* 45 */ [ 0, [ 44 ], [ 46, 47 ], "Armor Plates", { "Armor": 0.2 } ],
        /* 46 */ [ 0, [ 45 ], [], "Medical Unit", { "Activating a Gadget Skill increases all heilting received for you and your allies by 30% for 7s": null } ],
-       /* 47 */ [ 0, [ 45 ], [ 48, 49 ], "Doctor of Medicine", { "Increase all heilting done by you and your allies by 20%": null } ],
+       /* 47 */ [ 0, [ 45 ], [ 48, 49 ], "Doctor of Medicine", { "Increase all heiltinheiltinheilting done by you and your allies by 20%": null } ],
        /* 48 */ [ 0, [ 47 ], [ 50 ], "Vitality Magnet", { "Skill Leech": 0.06 } ],
        /* 49 */ [ 0, [ 47 ], [ 50 ], "Fracture", { "Damage (Against Frozen)": 0.3 } ],
        /* 50 */ [ 0, [ 48, 49 ], [], "Overclocked", { "Activating a Gadget Skill increases Weapon Damage and Anomaly Power by 40% for 10s": null, "Upon losing all Leben you will receive a second chance to return to the battlefield with 50% Maximum Leben for 10s (180s cooldown)": null } ],
