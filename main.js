@@ -493,7 +493,7 @@ function loadData() {
   //---------------------------------------- Skills
   skills = {
     trickster: [
-      /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "Leben": 0.05, "Damage Mitigation while Shield is active": 0.05, "[heilungsmechanik] Every Close Range kill heilt you for 20% of your maximalen Lebenspunkte and grants you 12% Shield": null } ],
+      /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "Leben": 0.05, "Damage Mitigation while Shield is active": 0.05, "[heilungsmechanik] Every Close Range kill heilt you for 20% of your maximale Lebenspunkte and grants you 12% Shield": null } ],
       
       /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Arms Trick", { "Weapon Damage (Close Range)": 0.15 } ],
       /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Bulletstorm", { "Reload Time": -0.2 } ],
@@ -542,7 +542,7 @@ function loadData() {
       /* 43 */ [ 0, [ 41, 42 ], [ 44, 45 ], "Shield's Timeline", { "Shield Degradation": -0.3 } ],
       /* 44 */ [ 0, [ 43 ], [], "Long Odds", { "For each Enemy in Close Range, your Armor is increased by 15%": null } ],
       /* 45 */ [ 0, [ 43 ], [ 46 ], "Anomaly Presistence", { "Leben": 0.1 } ],
-      /* 46 */ [ 0, [ 45 ], [ 47, 48 ], "Profit Squared", { "Every ammo pickup heilt you for 5% of your maximalen Lebenspunkte": null } ],
+      /* 46 */ [ 0, [ 45 ], [ 47, 48 ], "Profit Squared", { "Every ammo pickup heilt you for 5% of your maximale Lebenspunkte": null } ],
       /* 47 */ [ 0, [ 46 ], [ 49 ], "Dualshield", { "Damage Mitigation while Shield is active": 0.06 } ],
       /* 48 */ [ 0, [ 46 ], [ 49 ], "Anomaly Cloak", { "Armor": 0.2 } ],
       /* 49 */ [ 0, [ 47, 48 ], [], "Distruption Shield", { "Activating a Deception Skill grants you 20% Shield": null } ],
@@ -580,7 +580,7 @@ function loadData() {
     ],
     
     pyromant: [
-       /* 0  */ [ 1, [], [ 1, 30, 56 ], "", { "Anomaly Power": 0.1, "[heilungsmechanik] Skills mark Enemies for 15s. Killing a Marked Enemy heilt you for 24% of your maximalen Lebenspunkte": null } ],
+       /* 0  */ [ 1, [], [ 1, 30, 56 ], "", { "Anomaly Power": 0.1, "[heilungsmechanik] Skills mark Enemies for 15s. Killing a Marked Enemy heilt you for 24% of your maximale Lebenspunkte": null } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Inferno Weapon", { "Weapon Damage": 0.08 } ],
        /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Moths to the Flame", { "Weapon Leech": 0.05 } ],
@@ -657,10 +657,10 @@ function loadData() {
        /* 69 */ [ 0, [ 67 ], [ 71 ], "Unquenchable", { "Skill Leech": 0.06 } ],
        /* 70 */ [ 0, [ 67 ], [ 71 ], "Master of the Resistance", { "Resistance": 0.2 } ],
        /* 71 */ [ 0, [ 69, 70 ], [ 72, 74 ], "Archeilungsmechanikage", { "Anomaly Power": 0.06 } ],
-       /* 72 */ [ 0, [ 71 ], [ 73 ], "Phoenix Nestling", { "[Phoenix] Upon losing all Leben you will receive a second chance to return to the battlefield with 50% maximalen Lebenspunkte (180s cooldown)": null } ],
-       /* 73 */ [ 0, [ 72 ], [], "Phoenix", { "[Phoenix] Revive with 100% maximalen Lebenspunkte (135s cooldown)": null } ],
+       /* 72 */ [ 0, [ 71 ], [ 73 ], "Phoenix Nestling", { "[Phoenix] Upon losing all Leben you will receive a second chance to return to the battlefield with 50% maximale Lebenspunkte (180s cooldown)": null } ],
+       /* 73 */ [ 0, [ 72 ], [], "Phoenix", { "[Phoenix] Revive with 100% maximale Lebenspunkte (135s cooldown)": null } ],
        /* 74 */ [ 0, [ 71 ], [ 75, 76 ], "Conflagration", { "Resistance Piercing": 0.15 } ],
-       /* 75 */ [ 0, [ 74 ], [], "Chasing the Chill Away", { "[heilungsmechanik] Killing a Marked Enemy heilt you for an additional 12% of your maximalen Lebenspunkte": null } ],
+       /* 75 */ [ 0, [ 74 ], [], "Chasing the Chill Away", { "[heilungsmechanik] Killing a Marked Enemy heilt you for an additional 12% of your maximale Lebenspunkte": null } ],
        /* 76 */ [ 0, [ 74 ], [ 77, 78 ], "Flames that Burn Twice...", { "Damage (Against Elites)": 0.1 } ],
        /* 77 */ [ 0, [ 76 ], [ 79 ], "Mark's Cumulation", { "Skill Damage (Against Marked)": 0.08 } ],
        /* 78 */ [ 0, [ 76 ], [ 79 ], "World Ablaze", { "Skill Cooldown (Explosive)": 0.15 } ],
@@ -668,7 +668,7 @@ function loadData() {
     ],
     
     verwüster: [
-       /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "[heilungsmechanik] Every Close Range kill heilt you for 24% of your maximalen Lebenspunkte": null, "Leben": 0.15, "Armor": 0.3 } ],
+       /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "[heilungsmechanik] Every Close Range kill heilt you for 24% of your maximale Lebenspunkte": null, "Leben": 0.15, "Armor": 0.3 } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Havoc", { "Weapon Damage": 0.08 } ],
        /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Shotgun Adept", { "Weapon Damage (Shotgun)": 0.12 } ],
@@ -699,7 +699,7 @@ function loadData() {
        /* 26 */ [ 0, [ 25, 33 ], [ 25, 33, 27 ], "Into the Fray", { "When your Kinetic Skill ends, increase Damage Mitigation by 15% for 10s": null } ],
        /* 27 */ [ 0, [ 26 ], [], "Vim and Vigor", { "Increase Weapon Damage by 10% for each unlocked Anomaly in Veins node": null } ],
        /* 28 */ [ 0, [ 8, 36 ], [ 8, 29, 36 ], "Hierloom Armor", { "When an Enemy dies in Close Range, gain 20% of their Armor for 10s": null } ],
-       /* 29 */ [ 0, [ 28 ], [], "Profit Squared", { "Every ammo pickup heilt you for 5% of your maximalen Lebenspunkte": null } ],
+       /* 29 */ [ 0, [ 28 ], [], "Profit Squared", { "Every ammo pickup heilt you for 5% of your maximale Lebenspunkte": null } ],
       
        /* 30 */ [ 0, [ 0, 31, 32 ], [ 31, 32 ], "Colossus", { "Leben": 0.1 } ],
        /* 31 */ [ 0, [ 30, 33 ], [ 30, 33 ], "Tank", { "Armor": 0.2 } ],
@@ -715,7 +715,7 @@ function loadData() {
        /* 41 */ [ 0, [ 39 ], [ 43 ], "Colossus", { "Leben": 0.1 } ],
        /* 42 */ [ 0, [ 39 ], [ 43 ], "Unending Watch", { "Skill Cooldown (Protection)": 0.15 } ],
        /* 43 */ [ 0, [ 41, 42 ], [ 44, 45 ], "Resist the Mob", { "Increase Resistance by 7.5% for each Enemy in Close Range": null } ],
-       /* 44 */ [ 0, [ 43 ], [], "Unbroken Vow", { "You have 100% chance to ignore damage that would kill you and instantly heilt you for 50% of your maximalen Lebenspunkte (180s cooldown)": null } ],
+       /* 44 */ [ 0, [ 43 ], [], "Unbroken Vow", { "You have 100% chance to ignore damage that would kill you and instantly heilt you for 50% of your maximale Lebenspunkte (180s cooldown)": null } ],
        /* 45 */ [ 0, [ 43 ], [ 46 ], "Tank", { "Armor": 0.2 } ],
        /* 46 */ [ 0, [ 45 ], [ 47, 48 ], "Overlord of the Battleground", { "[heilungsmechanik] Gain an additional 10% Leben when an Enemy dies in Close Range": null } ],
        /* 47 */ [ 0, [ 46 ], [ 49 ], "Resistance Paragon", { "Resistance": 0.2 } ],
@@ -784,7 +784,7 @@ function loadData() {
        /* 24 */ [ 0, [ 4, 25 ], [ 4, 25 ], "BL-STM Havoc Nexus", { "Crit Damage": 0.15 } ],
        /* 25 */ [ 0, [ 24, 32 ], [ 24, 32, 26 ], "Exposing Toxin", { "Toxic applies Vulnerable": null } ],
        /* 26 */ [ 0, [ 25 ], [], "Marked for Execution", { "Vulnerability Effectiveness": 0.4 } ],
-       /* 27 */ [ 0, [ 8, 35 ], [ 8, 28, 35 ], "Blurscreen", { "Leben Regen threshold is increased by 20% of maximalen Lebenspunkte": null } ],
+       /* 27 */ [ 0, [ 8, 35 ], [ 8, 28, 35 ], "Blurscreen", { "Leben Regen threshold is increased by 20% of maximale Lebenspunkte": null } ],
        /* 28 */ [ 0, [ 27 ], [], "Engineer", { "Turrets' Leben Decay": -0.3 } ],
       
        /* 29 */ [ 0, [ 0, 30, 31 ], [ 30, 31 ], "Anomalus Body", { "Leben": 0.1 } ],
@@ -808,7 +808,7 @@ function loadData() {
        /* 47 */ [ 0, [ 45 ], [ 48, 49 ], "Doctor of Medicine", { "Increase all heilung done by you and your allies by 20%": null } ],
        /* 48 */ [ 0, [ 47 ], [ 50 ], "Vitality Magnet", { "Skill Leech": 0.06 } ],
        /* 49 */ [ 0, [ 47 ], [ 50 ], "Fracture", { "Damage (Against Frozen)": 0.3 } ],
-       /* 50 */ [ 0, [ 48, 49 ], [], "Overclocked", { "Activating a Gadget Skill increases Weapon Damage and Anomaly Power by 40% for 10s": null, "Upon losing all Leben you will receive a second chance to return to the battlefield with 50% maximalen Lebenspunkte for 10s (180s cooldown)": null } ],
+       /* 50 */ [ 0, [ 48, 49 ], [], "Overclocked", { "Activating a Gadget Skill increases Weapon Damage and Anomaly Power by 40% for 10s": null, "Upon losing all Leben you will receive a second chance to return to the battlefield with 50% maximale Lebenspunkte for 10s (180s cooldown)": null } ],
        
        /* 51 */ [ 0, [ 32, 53 ], [ 32, 52, 53 ], "Winter's Barrier", { "After using your Melee Skill, gain 40% Damage Mitigation for 3s": null } ],
        /* 52 */ [ 0, [ 51 ], [], "Sols-56 Freezing Tanks", { "Freeze Duration": 0.2 } ],
@@ -1207,7 +1207,7 @@ function loadData() {
     "hl-a": /(anomaly power)/gi,
     "hl-d": /((weapon|assault|close range|long range) damage|firepower)/gi,
     "hl-e": /(weakness|vulnerab(le|ility)|marked|burn(ing)?|ash(ed)?|bleed|toxic|freeze|frozen)/gi,
-    "hl-h": /((maximalen )?Leben|(spunkte)?)/gi,
+    "hl-h": /((maximale )?Lebenspunkte|Leben?)/gi,
     "hl-l": /(^\[heilungsmechanik\]|(ge)heilt|heil(t|en|ungsmechanik|ung)?)/gi,
     "hl-n": /((concentration|magma golem|anomaly in veins|br\/8 impact amplifier) node)/gi,
     "hl-p": /((armor|(armor and )?resistance) piercing)/gi,
@@ -1374,7 +1374,7 @@ function loadData() {
       "Twisted Rounds": "Fill your current weapon's magazine with Anomaly-infused bullets that increase your Firepower by ~50%. The skill lasts until you reload or switch weapons.",
       "Cyclone Slice": "Create a whirlwind of Anomaly blades that deal [Z] damage and Interrupt onto enemies within a small radius of you with every hit. The skill lasts for [X] seconds.",
       "Slow Trap": "Create a spacetime Anomaly sphere that inflicts Slow onto enemies and projectiles for 10 seconds.",
-      "Venator's Knife": "Throw a temporal knife at an enemy. The blade will ricochet between a maximalen of [Y] enemies within a small radius, dealing [Z] damage and marking them. All marked targets will be inflicted by Slow, and for [X] seconds the first damage dealt by you will be doubled.",
+      "Venator's Knife": "Throw a temporal knife at an enemy. The blade will ricochet between a maximale Lebenspunkte of [Y] enemies within a small radius, dealing [Z] damage and marking them. All marked targets will be inflicted by Slow, and for [X] seconds the first damage dealt by you will be doubled.",
       "Time Rift": "Create a shockwave that suspends enemies in the air, leaving them unable to fight for 3.5 seconds and inflicts Weakness.",
       "Hunt The Prey": "Select an enemy and teleport behind them, receiving a ~19% Shield bonus.",
       "Borrowed Time": "Receive [X] Shield and mark your location for [Y] seconds. Triggering the skill again will bend spacetime and teleport you back to the marked spot.",
