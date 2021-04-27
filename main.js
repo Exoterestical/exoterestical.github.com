@@ -1414,7 +1414,7 @@ function loadData() {
   let abilitykeywords = {
     "hl-d": /(~?\d+(\.\d+)?%|3\.5|9|\[[xyz]\]%?|firepower)/gi,
     "hl-e": /(weakness|burn|\bash|bleed|toxic|freeze)/gi,
-    "hl-h": /(Leben( regeneration)?)/gi,
+    "hl-h": /(heil( regeneration)?)/gi,
     "hl-n": /(interrupt(s|ing)?)/gi,
     "hl-r": /(Armor)/g,
     "hl-s": /(rocket launcher|minigun)/gi,
