@@ -575,7 +575,7 @@ function loadData() {
       /* 74 */ [ 0, [ 73 ], [], "Leap of Clincher", { "Activating a Movement Skill increases Resistance Piercing by 25% for 10s": null } ],
       /* 75 */ [ 0, [ 73 ], [ 76, 77 ], "Scion of the Void", { "When your Damage Skill ends, increase Armor Piercing by 30% and Resistance Piercing by 25% for 10s": null } ],
       /* 76 */ [ 0, [ 75 ], [ 78 ], "Shadow's Embrace", { "Increase Firepower by 15% of your Anomaly Power": null } ],
-      /* 77 */ [ 0, [ 75 ], [ 78 ], "Shielded Readiness", { "[heilungsmechanik] You will not be geheilt for each enemy that dies in Close Range, instead your Shield Gain will be increased by 20%": null } ],
+      /* 77 */ [ 0, [ 75 ], [ 78 ], "Schild Hoch", { "[heilungsmechanik] Gegner, die innerhalb kurzer Distanz sterben, heilen dich nicht mehr um 20 % deines maximalen Lebens, stattdessen wird zusätzlich 20 % Shield generiert.": null } ],
       /* 78 */ [ 0, [ 76, 77 ], [], "Altered Executioner", { "For each Enemy in Close Range, your Anomaly Power is increased by 10%": null } ]
     ],
     
@@ -1207,7 +1207,7 @@ function loadData() {
     "hl-a": /(anomaly power)/gi,
     "hl-d": /((weapon|assault|close range|long range) damage|firepower)/gi,
     "hl-e": /(weakness|vulnerab(le|ility)|marked|burn(ing)?|ash(ed)?|bleed|toxic|freeze|frozen)/gi,
-    "hl-h": /((maximale )?Lebenspunkte|Leben?)/gi,
+    "hl-h": /((maximale )?Lebenspunkte|(maximalen )?Leben(s|spunkte)?)/gi,
     "hl-l": /(^\[heilungsmechanik\]|(ge)heilt|heil(t|en|ungsmechanik|ung)?)/gi,
     "hl-n": /((concentration|magma golem|anomaly in veins|br\/8 impact amplifier) node)/gi,
     "hl-p": /((armor|(armor and )?resistance) piercing)/gi,
