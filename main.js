@@ -1207,7 +1207,7 @@ function loadData() {
     "hl-a": /(anomaly power)/gi,
     "hl-d": /((weapon|assault|close range|long range) damage|firepower)/gi,
     "hl-e": /(weakness|vulnerab(le|ility)|marked|burn(ing)?|ash(ed)?|bleed|toxic|freeze|frozen)/gi,
-    "hl-h": /((maximum )?health( regen)?)/gi,
+    "hl-h": /((maximum )Leben( regen)?)/gi,
     "hl-l": /(^\[hm\]|(weapon|skill) leech|heal(?!th)(s|ed|ing)?)/gi,
     "hl-n": /((concentration|magma golem|anomaly in veins|br\/8 impact amplifier) node)/gi,
     "hl-p": /((armor|(armor and )?resistance) piercing)/gi,
