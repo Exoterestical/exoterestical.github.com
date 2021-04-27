@@ -493,7 +493,7 @@ function loadData() {
   //---------------------------------------- Skills
   skills = {
     trickster: [
-      /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "Leben": 0.05, "Damage Mitigation while Shield is active": 0.05, "[HM] Every Close Range kill Heals you for 20% of your Maximum Leben and grants you 12% Shield": null } ],
+      /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "Leben": 0.05, "Damage Mitigation while Shield is active": 0.05, "[HM] Every Close Range kill heilt you for 20% of your Maximum Leben and grants you 12% Shield": null } ],
       
       /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Arms Trick", { "Weapon Damage (Close Range)": 0.15 } ],
       /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Bulletstorm", { "Reload Time": -0.2 } ],
@@ -542,7 +542,7 @@ function loadData() {
       /* 43 */ [ 0, [ 41, 42 ], [ 44, 45 ], "Shield's Timeline", { "Shield Degradation": -0.3 } ],
       /* 44 */ [ 0, [ 43 ], [], "Long Odds", { "For each Enemy in Close Range, your Armor is increased by 15%": null } ],
       /* 45 */ [ 0, [ 43 ], [ 46 ], "Anomaly Presistence", { "Leben": 0.1 } ],
-      /* 46 */ [ 0, [ 45 ], [ 47, 48 ], "Profit Squared", { "Every ammo pickup Heals you for 5% of your Maximum Leben": null } ],
+      /* 46 */ [ 0, [ 45 ], [ 47, 48 ], "Profit Squared", { "Every ammo pickup heilt you for 5% of your Maximum Leben": null } ],
       /* 47 */ [ 0, [ 46 ], [ 49 ], "Dualshield", { "Damage Mitigation while Shield is active": 0.06 } ],
       /* 48 */ [ 0, [ 46 ], [ 49 ], "Anomaly Cloak", { "Armor": 0.2 } ],
       /* 49 */ [ 0, [ 47, 48 ], [], "Distruption Shield", { "Activating a Deception Skill grants you 20% Shield": null } ],
@@ -580,7 +580,7 @@ function loadData() {
     ],
     
     pyromant: [
-       /* 0  */ [ 1, [], [ 1, 30, 56 ], "", { "Anomaly Power": 0.1, "[HM] Skills mark Enemies for 15s. Killing a Marked Enemy Heals you for 24% of your Maximum Leben": null } ],
+       /* 0  */ [ 1, [], [ 1, 30, 56 ], "", { "Anomaly Power": 0.1, "[HM] Skills mark Enemies for 15s. Killing a Marked Enemy heilt you for 24% of your Maximum Leben": null } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Inferno Weapon", { "Weapon Damage": 0.08 } ],
        /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Moths to the Flame", { "Weapon Leech": 0.05 } ],
@@ -660,7 +660,7 @@ function loadData() {
        /* 72 */ [ 0, [ 71 ], [ 73 ], "Phoenix Nestling", { "[Phoenix] Upon losing all Leben you will receive a second chance to return to the battlefield with 50% Maximum Leben (180s cooldown)": null } ],
        /* 73 */ [ 0, [ 72 ], [], "Phoenix", { "[Phoenix] Revive with 100% Maximum Leben (135s cooldown)": null } ],
        /* 74 */ [ 0, [ 71 ], [ 75, 76 ], "Conflagration", { "Resistance Piercing": 0.15 } ],
-       /* 75 */ [ 0, [ 74 ], [], "Chasing the Chill Away", { "[HM] Killing a Marked Enemy Heals you for an additional 12% of your Maximum Leben": null } ],
+       /* 75 */ [ 0, [ 74 ], [], "Chasing the Chill Away", { "[HM] Killing a Marked Enemy heilt you for an additional 12% of your Maximum Leben": null } ],
        /* 76 */ [ 0, [ 74 ], [ 77, 78 ], "Flames that Burn Twice...", { "Damage (Against Elites)": 0.1 } ],
        /* 77 */ [ 0, [ 76 ], [ 79 ], "Mark's Cumulation", { "Skill Damage (Against Marked)": 0.08 } ],
        /* 78 */ [ 0, [ 76 ], [ 79 ], "World Ablaze", { "Skill Cooldown (Explosive)": 0.15 } ],
@@ -668,7 +668,7 @@ function loadData() {
     ],
     
     verwüster: [
-       /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "[HM] Every Close Range kill Heals you for 24% of your Maximum Leben": null, "Leben": 0.15, "Armor": 0.3 } ],
+       /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "[HM] Every Close Range kill heilt you for 24% of your Maximum Leben": null, "Leben": 0.15, "Armor": 0.3 } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Havoc", { "Weapon Damage": 0.08 } ],
        /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Shotgun Adept", { "Weapon Damage (Shotgun)": 0.12 } ],
@@ -699,7 +699,7 @@ function loadData() {
        /* 26 */ [ 0, [ 25, 33 ], [ 25, 33, 27 ], "Into the Fray", { "When your Kinetic Skill ends, increase Damage Mitigation by 15% for 10s": null } ],
        /* 27 */ [ 0, [ 26 ], [], "Vim and Vigor", { "Increase Weapon Damage by 10% for each unlocked Anomaly in Veins node": null } ],
        /* 28 */ [ 0, [ 8, 36 ], [ 8, 29, 36 ], "Hierloom Armor", { "When an Enemy dies in Close Range, gain 20% of their Armor for 10s": null } ],
-       /* 29 */ [ 0, [ 28 ], [], "Profit Squared", { "Every ammo pickup Heals you for 5% of your Maximum Leben": null } ],
+       /* 29 */ [ 0, [ 28 ], [], "Profit Squared", { "Every ammo pickup heilt you for 5% of your Maximum Leben": null } ],
       
        /* 30 */ [ 0, [ 0, 31, 32 ], [ 31, 32 ], "Colossus", { "Leben": 0.1 } ],
        /* 31 */ [ 0, [ 30, 33 ], [ 30, 33 ], "Tank", { "Armor": 0.2 } ],
