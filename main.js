@@ -493,7 +493,7 @@ function loadData() {
   //---------------------------------------- Skills
   skills = {
     trickster: [
-      /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "Leben": 0.05, "Damage Mitigation while Shield is active": 0.05, "[HM] Every Close Range kill heilt you for 20% of your Maximum Leben and grants you 12% Shield": null } ],
+      /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "Leben": 0.05, "Damage Mitigation while Shield is active": 0.05, "[heilungsmechanik] Every Close Range kill heilt you for 20% of your Maximum Leben and grants you 12% Shield": null } ],
       
       /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Arms Trick", { "Weapon Damage (Close Range)": 0.15 } ],
       /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Bulletstorm", { "Reload Time": -0.2 } ],
@@ -522,7 +522,7 @@ function loadData() {
       
       /* 25 */ [ 0, [ 4, 26 ], [ 4, 26 ], "Arms Trick", { "Weapon Damage (Close Range)": 0.15 } ],
       /* 26 */ [ 0, [ 25, 33 ], [ 25, 33, 27 ], "Leap of Quietus", { "Activating a Movement Skill increases Armor Piercing by 25% for 10s": null } ],
-      /* 27 */ [ 0, [ 26 ], [], "Cycle of Life and Death", { "[HM] Leben for each enemy that died in Close Range": 0.1 } ],
+      /* 27 */ [ 0, [ 26 ], [], "Cycle of Life and Death", { "[heilungsmechanik] Leben for each enemy that died in Close Range": 0.1 } ],
       /* 28 */ [ 0, [ 8, 36 ], [ 8, 29, 36 ], "Outrider Executioner", { "Activating a Movement Skill increases Weapon Damage by 35% for 8s": null } ],
       /* 29 */ [ 0, [ 28 ], [], "Ace of Trumps", { "Armor Piercing": 0.1 } ],
       
@@ -548,7 +548,7 @@ function loadData() {
       /* 49 */ [ 0, [ 47, 48 ], [], "Distruption Shield", { "Activating a Deception Skill grants you 20% Shield": null } ],
       
       /* 50 */ [ 0, [ 33, 52 ], [ 33, 51, 52 ], "Against the Odds", { "When surrounded by Enemies, reloading your weapon deals damage and interrupts enemies' abilities. Damage scales with Anomaly Power": null } ],
-      /* 51 */ [ 0, [ 50 ], [], "Cycle of Life and Death", { "[HM] Leben for each enemy that died in Close Range": 0.1 } ],
+      /* 51 */ [ 0, [ 50 ], [], "Cycle of Life and Death", { "[heilungsmechanik] Leben for each enemy that died in Close Range": 0.1 } ],
       /* 52 */ [ 0, [ 50, 58 ], [ 50, 58 ], "Anomaly Scything", { "Activating Melee Skill increases Anomaly Power by 30% for 5s": null } ],
       /* 53 */ [ 0, [ 36, 62 ], [ 36, 54, 62 ], "Wither Scything", { "Melee Skill applies Weakness": null } ],
       /* 54 */ [ 0, [ 53 ], [], "Shield's Increment", { "Shield Gain": 0.1 } ],
@@ -575,12 +575,12 @@ function loadData() {
       /* 74 */ [ 0, [ 73 ], [], "Leap of Clincher", { "Activating a Movement Skill increases Resistance Piercing by 25% for 10s": null } ],
       /* 75 */ [ 0, [ 73 ], [ 76, 77 ], "Scion of the Void", { "When your Damage Skill ends, increase Armor Piercing by 30% and Resistance Piercing by 25% for 10s": null } ],
       /* 76 */ [ 0, [ 75 ], [ 78 ], "Shadow's Embrace", { "Increase Firepower by 15% of your Anomaly Power": null } ],
-      /* 77 */ [ 0, [ 75 ], [ 78 ], "Shielded Readiness", { "[HM] You will not be geheilt for each enemy that dies in Close Range, instead your Shield Gain will be increased by 20%": null } ],
+      /* 77 */ [ 0, [ 75 ], [ 78 ], "Shielded Readiness", { "[heilungsmechanik] You will not be geheilt for each enemy that dies in Close Range, instead your Shield Gain will be increased by 20%": null } ],
       /* 78 */ [ 0, [ 76, 77 ], [], "Altered Executioner", { "For each Enemy in Close Range, your Anomaly Power is increased by 10%": null } ]
     ],
     
     pyromant: [
-       /* 0  */ [ 1, [], [ 1, 30, 56 ], "", { "Anomaly Power": 0.1, "[HM] Skills mark Enemies for 15s. Killing a Marked Enemy heilt you for 24% of your Maximum Leben": null } ],
+       /* 0  */ [ 1, [], [ 1, 30, 56 ], "", { "Anomaly Power": 0.1, "[heilungsmechanik] Skills mark Enemies for 15s. Killing a Marked Enemy heilt you for 24% of your Maximum Leben": null } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Inferno Weapon", { "Weapon Damage": 0.08 } ],
        /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Moths to the Flame", { "Weapon Leech": 0.05 } ],
@@ -641,26 +641,26 @@ function loadData() {
        /* 54 */ [ 0, [ 36, 63 ], [ 36, 55, 63 ], "Extinction", { "Increase Damage by 20% against Enemies below 30% Leben": null } ],
        /* 55 */ [ 0, [ 54 ], [], "Let Them Burn", { "Burn Duration": 0.2 } ],
       
-       /* 56 */ [ 0, [ 0, 57, 58 ], [ 57, 58 ], "Archmage", { "Anomaly Power": 0.06 } ],
+       /* 56 */ [ 0, [ 0, 57, 58 ], [ 57, 58 ], "Archeilungsmechanikage", { "Anomaly Power": 0.06 } ],
        /* 57 */ [ 0, [ 56, 59 ], [ 56, 59 ], "Mark's Cumulation", { "Skill Damage (Against Marked)": 0.08 } ],
        /* 58 */ [ 0, [ 56, 59 ], [ 56, 59 ], "World Ablaze", { "Skill Cooldown (Explosive)": 0.15 } ],
-       /* 59 */ [ 0, [ 53, 57, 58, 61, 62 ], [ 53, 57, 58, 60, 61, 62 ], "Archmage", { "Anomaly Power": 0.06 } ],
+       /* 59 */ [ 0, [ 53, 57, 58, 61, 62 ], [ 53, 57, 58, 60, 61, 62 ], "Archeilungsmechanikage", { "Anomaly Power": 0.06 } ],
        /* 60 */ [ 0, [ 59 ], [], "With Fire and Rifle", { "Activating an Explosive Skill increases Weapon Damage by 35% for 10s": null } ],
        /* 61 */ [ 0, [ 59, 63 ], [ 59, 63 ], "Mark's Cumulation", { "Skill Damage (Against Marked)": 0.08 } ],
        /* 62 */ [ 0, [ 59, 63 ], [ 59, 63 ], "Strength of the Flame", { "Damage Taken (From Elites)": -0.1 } ],
-       /* 63 */ [ 0, [ 54, 61, 62 ], [ 54, 61, 62, 64, 65, 66 ], "Archmage", { "Anomaly Power": 0.06 } ],
+       /* 63 */ [ 0, [ 54, 61, 62 ], [ 54, 61, 62, 64, 65, 66 ], "Archeilungsmechanikage", { "Anomaly Power": 0.06 } ],
        /* 64 */ [ 0, [ 63 ], [], "Inferno Bullets", { "Increase Firepower by 15% of your Anomaly Power": null } ],
        /* 65 */ [ 0, [ 63 ], [ 67 ], "Meltdown", { "Burn Damage": 0.2 } ],
        /* 66 */ [ 0, [ 63 ], [ 67 ], "Gifted", { "Weapon Damage": 0.05, "Anomaly Power": 0.05 } ],
-       /* 67 */ [ 0, [ 65, 66 ], [ 68, 69, 70 ], "Archmage", { "Anomaly Power": 0.06 } ],
+       /* 67 */ [ 0, [ 65, 66 ], [ 68, 69, 70 ], "Archeilungsmechanikage", { "Anomaly Power": 0.06 } ],
        /* 68 */ [ 0, [ 67 ], [], "With Fire and Anomaly", { "Activating an Explosive Skill increases Anomaly Power by 12% for 10s": null } ],
        /* 69 */ [ 0, [ 67 ], [ 71 ], "Unquenchable", { "Skill Leech": 0.06 } ],
        /* 70 */ [ 0, [ 67 ], [ 71 ], "Master of the Resistance", { "Resistance": 0.2 } ],
-       /* 71 */ [ 0, [ 69, 70 ], [ 72, 74 ], "Archmage", { "Anomaly Power": 0.06 } ],
+       /* 71 */ [ 0, [ 69, 70 ], [ 72, 74 ], "Archeilungsmechanikage", { "Anomaly Power": 0.06 } ],
        /* 72 */ [ 0, [ 71 ], [ 73 ], "Phoenix Nestling", { "[Phoenix] Upon losing all Leben you will receive a second chance to return to the battlefield with 50% Maximum Leben (180s cooldown)": null } ],
        /* 73 */ [ 0, [ 72 ], [], "Phoenix", { "[Phoenix] Revive with 100% Maximum Leben (135s cooldown)": null } ],
        /* 74 */ [ 0, [ 71 ], [ 75, 76 ], "Conflagration", { "Resistance Piercing": 0.15 } ],
-       /* 75 */ [ 0, [ 74 ], [], "Chasing the Chill Away", { "[HM] Killing a Marked Enemy heilt you for an additional 12% of your Maximum Leben": null } ],
+       /* 75 */ [ 0, [ 74 ], [], "Chasing the Chill Away", { "[heilungsmechanik] Killing a Marked Enemy heilt you for an additional 12% of your Maximum Leben": null } ],
        /* 76 */ [ 0, [ 74 ], [ 77, 78 ], "Flames that Burn Twice...", { "Damage (Against Elites)": 0.1 } ],
        /* 77 */ [ 0, [ 76 ], [ 79 ], "Mark's Cumulation", { "Skill Damage (Against Marked)": 0.08 } ],
        /* 78 */ [ 0, [ 76 ], [ 79 ], "World Ablaze", { "Skill Cooldown (Explosive)": 0.15 } ],
@@ -668,7 +668,7 @@ function loadData() {
     ],
     
     verwüster: [
-       /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "[HM] Every Close Range kill heilt you for 24% of your Maximum Leben": null, "Leben": 0.15, "Armor": 0.3 } ],
+       /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "[heilungsmechanik] Every Close Range kill heilt you for 24% of your Maximum Leben": null, "Leben": 0.15, "Armor": 0.3 } ],
       
        /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Havoc", { "Weapon Damage": 0.08 } ],
        /* 2  */ [ 0, [ 1, 4 ], [ 1, 4 ], "Shotgun Adept", { "Weapon Damage (Shotgun)": 0.12 } ],
@@ -717,7 +717,7 @@ function loadData() {
        /* 43 */ [ 0, [ 41, 42 ], [ 44, 45 ], "Resist the Mob", { "Increase Resistance by 7.5% for each Enemy in Close Range": null } ],
        /* 44 */ [ 0, [ 43 ], [], "Unbroken Vow", { "You have 100% chance to ignore damage that would kill you and instantly heilt you for 50% of your Maximum Leben (180s cooldown)": null } ],
        /* 45 */ [ 0, [ 43 ], [ 46 ], "Tank", { "Armor": 0.2 } ],
-       /* 46 */ [ 0, [ 45 ], [ 47, 48 ], "Overlord of the Battleground", { "[HM] Gain an additional 10% Leben when an Enemy dies in Close Range": null } ],
+       /* 46 */ [ 0, [ 45 ], [ 47, 48 ], "Overlord of the Battleground", { "[heilungsmechanik] Gain an additional 10% Leben when an Enemy dies in Close Range": null } ],
        /* 47 */ [ 0, [ 46 ], [ 49 ], "Resistance Paragon", { "Resistance": 0.2 } ],
        /* 48 */ [ 0, [ 46 ], [ 49 ], "Tank", { "Armor": 0.2  } ],
        /* 49 */ [ 0, [ 47, 48 ], [], "Mighty Tank", { "Increase Firepower by 5% of your Armor (Bonus capped at 40% of total Firepower)": null, "Increase Anomaly Power by 5% of your Armor (Bonus capped at 40% of total Anomaly Power)": null } ],
