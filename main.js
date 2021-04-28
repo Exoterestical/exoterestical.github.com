@@ -3,7 +3,7 @@ $(() => {
   
   //---------------------------------------- Points
   points = {
-    trickster: 21,
+    assassine: 21,
     pyromant: 21,
     verwüster: 21,
     technomant: 21
@@ -12,13 +12,13 @@ $(() => {
   
   //---------------------------------------- Load URL Params
   url = {
-    trickster: [],
+    assassine: [],
     pyromant: [],
     verwüster: [],
     technomant: []
   }
   power = {
-    trickster: [],
+    assassine: [],
     pyromant: [],
     verwüster: [],
     technomant: []
@@ -368,7 +368,7 @@ function bindElements() {
   })
   
   //---------------------------------------- Change Tree
-  $("#nav-trickster, #nav-pyromant, #nav-verwüster, #nav-technomant").on("click", function() {
+  $("#nav-assassine, #nav-pyromant, #nav-verwüster, #nav-technomant").on("click", function() {
     activetree.hide()
     activestats.hide()
     $("#searchcount").text("")
@@ -492,7 +492,7 @@ function bindElements() {
 function loadData() {  
   //---------------------------------------- Skills
   skills = {
-    trickster: [
+    assassine: [
       /* 0  */ [ 1, [], [ 1, 30, 55 ], "", { "Leben": 0.05, "Schaden Mitigation while Shield is active": 0.05, "[heilungsmechanik] Every Close Range kill heilt you for 20% of your maximale Lebenspunkte and grants you 12% Shield": null } ],
       
       /* 1  */ [ 0, [ 0, 2, 3 ], [ 2, 3 ], "Arms Trick", { "Weapon Schaden (Close Range)": 0.15 } ],
@@ -844,7 +844,7 @@ function loadData() {
   
   //----------------------------------------- Node Positions
   let allcoords = {
-    trickster: [
+    assassine: [
       [ 108, 375, 2 ],
       
       [ 252, 329, 0 ],
@@ -1217,7 +1217,7 @@ function loadData() {
   }
   
   stats = {
-    trickster: {},
+    assassine: {},
     pyromant: {},
     verwüster: {},
     technomant: {}
@@ -1287,7 +1287,7 @@ function loadData() {
   
   //---------------------------------------- Load Abilities
   abilities = {
-    trickster: {
+    assassine: {
       Schaden: {
         "Temporal Blade": 19.8,
         "Twisted Rounds": 25,
@@ -1369,7 +1369,7 @@ function loadData() {
   }
   
   let abilitydesc = {
-    trickster: {
+    assassine: {
       "Temporal Blade": "Paralyze and slice enemies in front of you, dealing ~86% Schaden and inflicting Slow and Interrupt to all targets.",
       "Twisted Rounds": "Fill your current weapon's magazine with Anomaly-infused bullets that increase your Firepower by ~50%. The skill lasts until you reload or switch weapons.",
       "Cyclone Slice": "Create a whirlwind of Anomaly blades that deal [Z] Schaden and Interrupt onto enemies within a small radius of you with every hit. The skill lasts for [X] seconds.",
