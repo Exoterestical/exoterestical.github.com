@@ -1,2 +1,2 @@
-# exoterestical.github.com
+# exoterestical.github.io
 Outriders Skillbaum
